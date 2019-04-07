@@ -6,6 +6,7 @@ import HomeContainer from '../components/tabbar/HomeContainer'
 import MemberContainer from '../components/tabbar/MemberContainer'
 import ShopcarContainer from '../components/tabbar/ShopcarContainer'
 import SearchContainer from '../components/tabbar/SearchContainer'
+import NewList from '../components/home/newList'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +34,11 @@ export default new Router({
       path:'/search',
       name:'SearchContainer',
       component:SearchContainer
+    },
+    {
+      path:'/home/newList',
+      name:'NewList',
+      component:NewList
     }
   ],
   linkActiveClass:'mui-active'//覆盖默认的路由高亮的类，默认的的类叫做inkActiveClass
