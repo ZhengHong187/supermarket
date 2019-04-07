@@ -1,6 +1,6 @@
 <template>
     <div>
-       <h1>新闻咨询列表</h1> 
+       <h1>新闻咨询列表ss</h1> 
     </div>
 </template>
 <script>
